@@ -8,7 +8,9 @@
   }
 def list_artists(hash)
   hash.each do |artist|
- 
+    puts artist
+  end
+ end
   
 
 #2. Define a method named `list_songs`. This method should use the `each_value` method to iterate over the music library hash and print out the name of the songs in the library.
