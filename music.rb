@@ -30,7 +30,7 @@ def delete_artist(hash, artist)
   hash.delete(artist)
   puts hash
 end
-delete_artist(music_library, )
+delete_artist(music_library, "Adele")
 
 #This method should take two arguments, the music library hash, and the artist. Remember, keys in hashes are symbols, so you'll need to expect the method to accept the artist as a symbol. 
 
