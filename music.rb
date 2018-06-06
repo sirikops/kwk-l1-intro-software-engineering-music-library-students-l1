@@ -26,8 +26,8 @@ def list_artists(hash)
 
 #3. Define a method `delete_artist`. This method should take delete the key-value pair from the hash based on the artist and returned the updated hash.
 
-def delete_artist(hash, )
-  hash
+def delete_artist(hash, artist)
+  hash.delete(artist)
 
 #This method should take two arguments, the music library hash, and the artist. Remember, keys in hashes are symbols, so you'll need to expect the method to accept the artist as a symbol. 
 
