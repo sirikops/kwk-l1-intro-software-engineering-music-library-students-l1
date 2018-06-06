@@ -4,7 +4,7 @@
  music_library = {
    "Britney Spears" => "Toxic",
    "Adele" => "Rolling in the Deep"
-   
+   "The Beatles" => "Yellow Submarine"
   }
 def list_artists
  
