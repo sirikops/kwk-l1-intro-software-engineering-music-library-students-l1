@@ -22,7 +22,7 @@ def list_artists(hash)
     puts song
     }
   end
-  list_songs(music_library)
+  # list_songs(music_library)
 
 #3. Define a method `delete_artist`. This method should take delete the key-value pair from the hash based on the artist and returned the updated hash.
 
