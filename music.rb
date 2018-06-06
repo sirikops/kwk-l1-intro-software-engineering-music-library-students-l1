@@ -7,7 +7,7 @@
    "The Beatles" => "Yellow Submarine",
   }
 def list_artists(hash)
-  hash.each do |artist|
+  hash.each_key do |artist|
     puts artist
   end
  end
