@@ -6,7 +6,7 @@
    "Adele" => "Rolling in the Deep",
    "The Beatles" => "Yellow Submarine",
   }
-def list_artists
+def list_artists()
  
   
 
