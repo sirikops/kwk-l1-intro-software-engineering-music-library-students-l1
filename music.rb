@@ -43,7 +43,7 @@ def add_artist(hash, artist, song)
   hash.push(song)
   puts hash
 end
-add_artist(music_library, )
+add_artist(music_library, "Maroon 5", "")
 # This method should accept three arguments, the library hash, the artist, and the song.
 
 
