@@ -39,8 +39,7 @@ end
 #4. This method should add a new artist and song (key value pair) to the hash and return the updated hash. 
 
 def add_artist(hash, artist, song)
-  hash.push(artist)
-  hash.push(song)
+  hash[artist] = song
   puts hash
 end
 add_artist(music_library, "Maroon 5", "Girls Like You")
