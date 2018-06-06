@@ -2,7 +2,9 @@
 #1. Define a method named `list_artists`. This method should use the `each_key` method to iterate over the hash and return all the artists (the keys)
 # This method should accept a hash as an argument.
  music_library = {
-   "Britney Spears" => "Toxic" 
+   "Britney Spears" => "Toxic",
+   "Adele" => "Rolling in the Deep"
+   
   }
 def list_artists
  
